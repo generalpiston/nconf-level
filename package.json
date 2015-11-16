@@ -1,5 +1,5 @@
 {
-  "name": "level-nconf",
+  "name": "nconf-level",
   "version": "0.1.0",
   "description": "nconf configuration leveldb backend",
   "main": "./index.js",
