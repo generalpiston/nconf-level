@@ -35,7 +35,6 @@ Level.prototype.get = function(key) {
     throw err;
   }
   if (result) return JSON.parse(decodeURIComponent(result));
-  else return null;
 };
 
 Level.prototype._put = function(key, value) {
