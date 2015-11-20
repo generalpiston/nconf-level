@@ -55,6 +55,7 @@ describe("#full()", function () {
 
   it("nulls", function () {
     nconf.set("null", null);
-    assert.equal(nconf.get("null"), null);
+    assert.strictEqual(nconf.get("null"), null);
+    assert.strictEqual(nconf.get("dne"), undefined);
   });
 });
