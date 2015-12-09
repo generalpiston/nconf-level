@@ -8,6 +8,10 @@
   },
   "author": "Abraham Elmahrek (abe@elmahrek.com)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abec/nconf-level.git"
+  },
   "dependencies": {
     "deasync": "^0.1.3",
     "level": "^1.3.0",
